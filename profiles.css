@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.container
+{
+    font-family: 'Cormorant Garamond', serif;
+}
+.container h2{
+    font-size: 35px;
+    /* color: white; */
+    line-height: 2px;
+}
+.container p{
+word-spacing: 1.6px;
+/* color: white; */
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.mem1 {
+    width:40% ;
+    height:40%;
+    margin-left: -6%;
+    border-radius: 25px;
+}
+.memberA {
+   background-color: snow;
+   width: 30%;
+   /* margin-left: 3%;
+   margin-bottom:3% ; */
+   margin: 1% 0.5%;
+   padding: 0.5%;
+   border-radius: 25px;
+   border: solid 0.5px rgba(128, 128, 128, 0.219);
+   float: left;
+   display: flex;
+}
+.AboutUs
+    {
+        width: 90%;
+        margin: 0 5%;
+        background-color: snow;
+        float: left;
+
+    }
+.Top
+{
+float: left;
+width: 50%;
+}
+
+a{
+    text-decoration: none;
+    /* font-size: 18px; */
+    color: black;
+}
+ .member h3,h4 ,a{
+   line-height: 2px;
+ }
+ .right-info1{
+    /* float: right; */
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.profiles
+ {
+    width: 80%;
+    float: left;
+    display: flex;
+    margin: 0 15%;
+ }
+ nav 
+ {
+     width: 100%;
+     float : left;
+     background-color: rgb(150, 178, 231);
+     position: fixed;
+     top: 0;
+    
+     
+ }
+ .Logo
+ {
+     float: left;
+     background-color: white;
+     margin: 0.5% 1%;
+ }
+.Logo img
+ {
+     width: 50px;
+     height: 50px;
+ }
+
+nav ul  
+ {
+     float: right;
+     list-style: none;
+     margin: 0.5% 1%;
+ }
+nav ul li
+ {
+     display: inline;
+     margin: 0 5px;
+     font-size: 20px;
+    font-family: 'Source Serif Pro', serif;
+     font-weight: bold;
+ }
+nav ul li a
+ {
+     text-decoration: none;
+     color: blue;
+ }
+ .Heading
+    {
+        text-align: center;
+        margin-top: 5%;
+       font-family: 'Source Serif Pro', serif;
+    }
+.Sponsors
+    {
+        display: flex;
+        float: left;
+        width: 80%;
+        margin: 2% 10%;
+        
+    }
+.Sponsors .Loggos
+    {
+        width: 16%;
+    }
+.Sponsors .Loggos img
+    {
+        width: 110px;
+        height: 50px;
+    }
+footer p
+    {
+        text-align: center;
+        color: rgba(128, 128, 128, 0.5);
+    }
+footer
+    {
+        float: left;
+        width: 100%;
+        background-color: snow;
+        position: absolute;
+        bottom:0;   
+        box-shadow: 0px 0px 122px 13px rgba(148,148,148,1);     
+    }
+ @media only screen and (max-width:770px){
+    .Heading
+    {
+       
+        margin-top: 25%;
+   
+    }
+.profiles
+    {
+        display: block;
+
+    }
+.memberA
+    {
+        width: 90%;
+        margin: 0.5% 5%;
+        display: block;
+    }
+.Top, .right-info1
+    {
+        width: 100%;
+    }
+footer
+{
+    position: relative;
+    bottom: 0;
+}
+
+
+ }
+
+
+
